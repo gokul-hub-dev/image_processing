@@ -2,7 +2,7 @@
 CXX = g++
 
 # Compiler flags
-CXXFLAGS = `pkg-config --cflags opencv4`
+CXXFLAGS = `pkg-config --cflags opencv4` -I/usr/local/include/opencv4/
 
 # Linker flags
 LDFLAGS = `pkg-config --libs opencv4`

@@ -5,7 +5,7 @@ UNINSTALL_OPENCV='no'
 CLEAN_BUILD='yes'
 DEP_INSTALL='no'
 DOWNLOAD_OPENCV='no'
-BUILD_INSTALL='no'
+BUILD_INSTALL='yes'
 
 # Remove OpenCV repositories
 if [ "$REMOVE_REPO" == "yes" ]; then
