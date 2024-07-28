@@ -23,6 +23,8 @@ if [ "$UNINSTALL_OPENCV" == "yes" ]; then
 	sudo rm -rf /usr/local/share/opencv4
 	sudo rm -rf /usr/local/bin/opencv_*
 	sudo ldconfig
+	sudo apt-get purge libopencv*
+	sudo apt-get autoremove
 	echo "OpenCV uninstallation completed."
 fi
 
